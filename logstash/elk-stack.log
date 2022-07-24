@@ -1,0 +1,19 @@
+2022-07-17 18:53:34.482  INFO 12575 --- [main] c.j.elk.ElkStackExampleApplication       : Starting ElkStackExampleApplication on DESKTOP-5F91K19 with PID 12575 (/home/vineeth/Downloads/Workspace/ELK logging/elk-stack-logging-example-master/target/classes started by vineeth in /home/vineeth/Downloads/Workspace/ELK logging/elk-stack-logging-example-master)
+2022-07-17 18:53:34.484  INFO 12575 --- [main] c.j.elk.ElkStackExampleApplication       : No active profile set, falling back to default profiles: default
+2022-07-17 18:53:35.225  INFO 12575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9898 (http)
+2022-07-17 18:53:35.233  INFO 12575 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-17 18:53:35.233  INFO 12575 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-07-17 18:53:35.279  INFO 12575 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-17 18:53:35.280  INFO 12575 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 746 ms
+2022-07-17 18:53:35.401  INFO 12575 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-17 18:53:35.524  INFO 12575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9898 (http) with context path ''
+2022-07-17 18:53:35.526  INFO 12575 --- [main] c.j.elk.ElkStackExampleApplication       : Started ElkStackExampleApplication in 1.312 seconds (JVM running for 1.539)
+2022-07-17 18:54:12.950  INFO 12575 --- [http-nio-9898-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-17 18:54:12.950  INFO 12575 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-17 18:54:12.956  INFO 12575 --- [http-nio-9898-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-07-17 18:54:12.978  INFO 12575 --- [http-nio-9898-exec-1] c.j.elk.ElkStackExampleApplication       : user found : User(id=3, name=Rony)
+2022-07-17 18:54:25.218  INFO 12575 --- [http-nio-9898-exec-3] c.j.elk.ElkStackExampleApplication       : user found : User(id=3, name=Rony)
+2022-07-17 18:54:39.869  INFO 12575 --- [http-nio-9898-exec-4] c.j.elk.ElkStackExampleApplication       : user found : User(id=3, name=Rony)
+2022-07-17 18:54:55.652 ERROR 12575 --- [http-nio-9898-exec-6] c.j.elk.ElkStackExampleApplication       : User Not Found with ID : 45
+2022-07-17 19:06:33.225  INFO 12575 --- [http-nio-9898-exec-2] c.j.elk.ElkStackExampleApplication       : user found : User(id=3, name=Rony)
+2022-07-17 19:06:40.903 ERROR 12575 --- [http-nio-9898-exec-5] c.j.elk.ElkStackExampleApplication       : User Not Found with ID : 21
